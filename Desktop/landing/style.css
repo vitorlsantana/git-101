@@ -1,0 +1,89 @@
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap");
+
+/* --- Components design --- */
+@import	url("avatar.css");
+@import url("button.css");
+@import url("dropdown.css");
+@import url("card.css");
+@import url("flexbox.css");
+
+/* --- Fonts --- */
+body {
+	background: rgb(240, 240, 240);
+	color: rgb(20, 20, 20); 
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+h1	{
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	color: #cf7500;
+}
+h2	{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+a	{
+	text-decoration: none;
+	color: blue;
+}
+a:hover	{
+	text-decoration: none;
+	color: green;
+}
+
+/* Custom design */
+#banner {
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%), url(images/curriculo6.jpg);
+	background-size: cover;
+	padding: 15px 0;
+	text-align: center;
+	color: white;
+}
+
+#banner h1 {
+	color: white;
+	font-weight: lighter;
+	font-size: 60px;
+}
+#banner p {
+	color: white;
+	font-size: 60px
+	font-weight: bolder;
+}
+#banner2 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 10px;
+}
+.card h2 {
+	color: black;
+}
+.card h2:hover {
+	text-decoration: none;
+	color: grey;
+}
+.card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	border-image: 60%
+	margin: 0;
+}
+#footer {
+	background: black;
+	color: white;
+	font-size: 10px;
+	padding: 12px;
+	margin: 0;
+}
+#footer a {
+	font-size: 30px;
+	color: grey;
+}
+#footer a:hover {
+	color: white;
+}

@@ -1,0 +1,17 @@
+.container {
+	height: 100vh;
+	display: flex;
+	background: white;
+	background-size: cover;
+	justify-content: space-around;
+}
+
+.card {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.topicos {
+	flex: 1, 0, auto;
+}

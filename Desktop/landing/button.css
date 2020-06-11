@@ -1,0 +1,24 @@
+.btn-medium {
+	color: black;
+	border-radius: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+.btn-medium:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: grey;
+}
+.btn-twitter {
+	color: white;
+	border-radius: 3px;
+	padding: 10px 15px;
+	font-weight: bolder;
+	background-color: #D4312D;
+}
+.btn-twitter:hover {
+	text-decoration: none;
+	color: white;
+	background-color: red;
+}
